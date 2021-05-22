@@ -22,7 +22,7 @@ try:
         elif '/help' == event.raw_text:
             await bot.send_message(
                 event.sender_id,
-                'List of commands:\n/anime <name of anime you want> : to download any anime by search\n/latest : to get list of latest episodes released\n/source : You can see the source code and more information of the bot if u want\n\n\nThe links provided are in multiple qualities to download just open links in chrome and download starts automatically\n\n(HDP-mp4) links can be direclty opened in VLC or MX player to stream episodes without downloading\n\nMixdropSV links usually have lowest size for 720p\n\nI suggest open the links in 1DM app on playstore instead of chrome for easy downloading\n\n\nTo report any Problems, Bugs, Suggestions contact @President_Shirogane'
+                'List of commands:\n/anime <name of anime you want> : to download any anime by search\n/latest : to get list of latest episodes released\n/source : You can see the source code and more information of the bot if u want\n\n\nThe links provided are in multiple qualities to download just open links in chrome and download starts automatically\n\n(HDP-mp4) links can be direclty opened in VLC or MX player to stream episodes without downloading\n\nMixdropSV links usually have lowest size for 720p\n\nI suggest open the links in 1DM app on playstore instead of chrome for easy downloading\n\n\nTo report any Problems, Bugs, Suggestions contact @Gautam1834'
             )
 
         elif '/latest' in event.raw_text:
